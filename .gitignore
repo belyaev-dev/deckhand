@@ -15,7 +15,11 @@ Thumbs.db
 node_modules/
 .next/
 dist/
+# Track compile-time placeholder so go:embed builds without a fresh Vite build.
+!web/dist/.placeholder
+!web/placeholder/
 build/
+deckhand
 __pycache__/
 *.pyc
 .venv/

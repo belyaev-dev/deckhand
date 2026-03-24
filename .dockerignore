@@ -1,0 +1,14 @@
+.git
+.gsd
+.bg-shell
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+node_modules/
+web/node_modules/
+web/dist/
+deckhand
+tmp/
+coverage/
