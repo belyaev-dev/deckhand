@@ -100,6 +100,17 @@ Then run any workflow-specific checks that match your change, such as:
 - a local UI smoke test when changing routed pages, browser state, or embedded assets
 - API-specific checks when editing handlers or DTOs under `internal/api/`
 
+## Releasing
+
+See [docs/releasing.md](docs/releasing.md) for the full release guide. The short version:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The [release workflow](.github/workflows/release.yml) builds the binary, pushes a Docker image to GHCR, and creates a GitHub Release with auto-generated notes.
+
 ## Pull request guidance
 
 Please keep PRs grounded in the repository’s current contracts:

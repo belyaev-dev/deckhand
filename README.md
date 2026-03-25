@@ -123,6 +123,7 @@ Need request/response examples or RBAC details? Jump straight to the published r
 - [Architecture overview](docs/architecture.md)
 - [API reference](docs/api.md)
 - [Permissions and RBAC](docs/permissions.md)
+- [Releasing](docs/releasing.md)
 - [Contributing guide](CONTRIBUTING.md)
 - [Helm chart README](charts/deckhand/README.md)
 
