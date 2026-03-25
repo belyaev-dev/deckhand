@@ -90,4 +90,5 @@ jobs:
         run: go vet ./...
 
       - name: TypeScript type check
-        run: npm --prefix web exec tsc -- --noEmit
+        working-directory: web
+        run: npx tsc --noEmit
